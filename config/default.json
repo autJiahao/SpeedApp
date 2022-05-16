@@ -1,4 +1,0 @@
-{
-    "mongoURI":
-      "mongodb+srv://SPEEDDB:speeddb@cluster0.pcjlc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-  }
