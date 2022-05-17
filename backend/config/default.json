@@ -1,4 +1,4 @@
 {
     "mongoURI":
-      "mongodb+srv://jimzuo:zuoyou981225@cluster0.idsuw.mongodb.net/?retryWrites=true&w=majority"
+      "mongodb+srv://jimzuo:123@cluster0.idsuw.mongodb.net/?retryWrites=true&w=majority"
   }
