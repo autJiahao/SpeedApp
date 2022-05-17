@@ -1,0 +1,5 @@
+{
+    "mongoURI":
+      "mongodb+srv://sichengZhou:123@cluster0.idsuw.mongodb.net/?retryWrites=true&w=majority"
+      
+}
