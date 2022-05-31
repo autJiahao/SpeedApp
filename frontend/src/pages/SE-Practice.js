@@ -29,7 +29,10 @@ import React, { Component } from 'react';
  articleList = "there is no book record!"; 
  } else { 
  articleList = articles.map((article, k) => 
+ <>
  <ArticleCard article={article} key={k} /> 
+ <button onClick={this.deleteArticle.bind(this,article._id)}>Delete me</button>
+ </>
  ); 
  } 
    return ( 
@@ -48,5 +51,15 @@ import React, { Component } from 'react';
  </div> 
  ); 
  } 
+
+ deleteArticle(id){
+  axios.delete('http://localhost:8082/api/articles/'+id).then(res => { 
+    
+    ; 
+    }) 
+    .catch(err => { 
+    console.log("Error form ShowBookDetails_deleteClick"); 
+    }) 
+    }; 
  } 
    export default SEPractice; 

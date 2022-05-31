@@ -30,9 +30,7 @@ class Search extends Component {
         <button onClick={()=>this.Search_Article(this.search.value)}>Search</button>
         {articleList}
         </div>
-      
-    );
-  }
+    );}
 
 Search_Article(Searchinput) {
     let postdate = {
